@@ -19,7 +19,7 @@
 
 ## Description
 
-Our web scrapping script is written in the scraping.py. We created this script throught out module 10. Our challenge was to add an additional section into our web app. The Mars Hemisphere headers as well as high quality images. Our output is pushed with flask and the apps routes being sorted in app.py script.
+Our web scrapping script is written in the scraping.py. We created this script throught out module 10. Our challenge was to add an additional section into our web app. 1) The Mars Hemisphere headers  2) four high quality images from headers. Our output is pushed with flask and the apps routes being sorted in app.py script.
 
 Our app.py script calls upon our scaping.py script and the scraping.py script does basically most of the work. Our scrapped Data is stored in a MongoDB database and retrieved to our browser app through running a local flask. Our page setup is formatted in the index.html file, we are using bootstrap 3 to clean up and display our high quality images. 
 
